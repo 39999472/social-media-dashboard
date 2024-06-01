@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    align-content:stretch;
+    flex-grow: 1(applied to all);
+}
+
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    
+    
+    border-radius: 8px;
+    width: 22%;
+    text-align: center;
+    background-color: rgb(35, 35, 119);
+
+    gap: 20px;
+}
+
+.overview {
+    margin-top: 20px;
+    gap:20px;
+    row-gap: 20px;
+    column-gap:20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.static {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.stat {
+    background-color: rgb(42, 42, 99);
+    
+    border-radius: 8px;
+    width: 22%;
+    text-align: center;
+    
+}
+
+
+
+.change {
+    color: #4caf50; /* Green for positive change */
+}
+
+.change.negative {
+    color: #f44336; /* Red for negative change */
+}
+
+.dark-mode {
+    display: flex;
+    align-items: center;
+}
+
+.dark-mode label {
+    margin-right: 10px;
+}
+.chang{
+    color:#f44336
+}
+h6{
+    color:blue;
+}
+@media screen and(max-width: 768px){
+    body{
+        font-size:14px;
+        margin:10px;
+        background-color: #f0f0f0;
+        
+        
+    }
+}
+@media  screen and(max-width:768px) {
+    .dashboard{
+        font-size:14px;
+        margin:10px;
+        background-color: #f0f0f0;
+    }
+    
+}
+
+
+
+
+
+

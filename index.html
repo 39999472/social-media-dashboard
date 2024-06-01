@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">
+            <h1>Social Media Dashboard</h1>
+            <h6>Total Followers: <span id="total-followers">23,004</span></h6>
+            <div class="dark-mode">
+                <label for="dark-mode-toggle">Dark Mode</label>
+                <input type="checkbox" id="dark-mode-toggle">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card" id="facebook-card">
+                <h2><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-facebook.svg">@nathanf</h2>
+                <p id="facebook-followers">1987<br> FOLLOWERS</p>
+                <p class="change"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-up.svg">12 Today</p>
+            </div>
+            <div class="card" id="twitter-card">
+                <h2><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-twitter.svg">@nathanf</h2>
+                <p id="twitter-followers">1044<br> FOLLOWERS</p>
+                <p class="change"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-up.svg">99 Today</p>
+            </div>
+            <div class="card" id="instagram-card">
+                <h2><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-instagram.svg">@realnathanf</h2>
+                <p id="instagram-followers">11k<br> FOLLOWERS</p>
+                <p class="change"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-up.svg">1099 Today</p>
+            </div>
+            <div class="card" id="youtube-card">
+                <h2><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-youtube.svg">Nathan F.</h2>
+                <p id="youtube-followers">8239<br> SUSCRIBERS</p>
+                <p class="chang"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-up.svg">144 Today</p>
+            </div>
+        </div>
+        <div class="overview">
+            <h2>Overview - Today</h2>
+            <div class="stats">
+                <div class="stat" id="facebook-stats">
+                    <p>Page Views <span id="facebook-page-views"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-facebook.svg"></span></p>
+                    <p>87 <span id="facebook-likes"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-up.svg">3%</span></p>
+                </div>
+                <div class="stat" id="facebook-stats">
+                    <p>likes <span id="facebook-page-views"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-facebook.svg"></span></p>
+                    <p>52 <span id="facebook-likes"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-up.svg">2%</span></p>
+                </div>
+
+
+                <div class="stat" id="instagram-stats">
+                    <p>Likes <span id="instagram-likes"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-instagram.svg"></span></p>
+                    <p>5462 <span id="instagram-profile-views"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-up.svg">22.67%</span></p>
+                </div>
+
+                <div class="stat" id="instagram-stats">
+                    <p>profile views <span id="instagram-likes"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-instagram.svg"></span></p>
+                    <p>52k <span id="instagram-profile-views"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-up.svg">13.75%</span></p>
+                </div>
+            </div>
+
+
+            <div class="static">
+                <div class="stat" id="twitter-stats">
+                    <p>Retweets <span id="twitter-retweets"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-twitter.svg"></span></p>
+                    <p>117 <span id="twitter-likes"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-up.svg">30.3%</span></p>
+                </div>
+
+                <div class="stat" id="twitter-stats">
+                    <p>likes <span id="twitter-retweets"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-twitter.svg"></span></p>
+                    <p>507 <span id="twitter-likes"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-up.svg">55.3%</span></p>
+                </div>
+                <div class="stat" id="youtube-stats">
+                    <p>likes <span id="youtube-total-views"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-youtube.svg"></span></p>
+                    <p>107 <span id="youtube-likes"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-up.svg">19%</span></p>
+                </div>
+
+                <div class="stat" id="youtube-stats">
+                    <p>Total Views <span id="youtube-total-views"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-youtube.svg"></span></p>
+                    <p>1407<span id="youtube-likes"><img src="./social-media-dashboard-with-theme-switcher-master/images/icon-up.svg">12%</span></p>
+                </div>
+            </div>  
+            
+        </div>
+    
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
